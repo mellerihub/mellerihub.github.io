@@ -7,56 +7,260 @@
     <meta name="google-site-verification" content="1yTZuC-Lusmvfdjas8bcBoEIpeWuCNaOVgzdCxSR06I" />
     <title>MelleriHub Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </head>
 <body class="bg-gray-100 text-gray-900">
-
     <!-- Navigation Bar -->
     <nav class="bg-white shadow-md">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center py-4">
-                <a href="#" class="text-2xl font-bold text-blue-600">MelleriHub</a>
+                <a href="#" class="text-2xl font-bold text-[#ee3634]">MelleriHub</a>
                 <div class="space-x-6">
-                    <a href="#" class="text-gray-600 hover:text-blue-500">Home</a>
-                    <a href="https://github.com/mellerihub/Awesome-AISolutions-for-mellerikat" class="text-gray-600 hover:text-blue-500">GitHub</a>
+                    <a href="#" class="text-gray-600 hover:text-[#ee3634]">Home</a>
+                    <a href="https://github.com/mellerihub/Awesome-AISolutions-for-mellerikat" class="text-gray-600 hover:text-[#ee3634]">GitHub</a>
                     <a href="#" class="text-gray-600 hover:text-blue-500">Blog</a>
-                    <a href="#" class="text-gray-600 hover:text-blue-500">About</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-500">About</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="bg-blue-600 text-white py-20 text-center">
+    <header class="bg-[#ee3634] text-white py-20 text-center">
         <h1 class="text-4xl font-bold">Welcome to MelleriHub</h1>
         <p class="text-lg mt-2">Exploring AI, MLOps, and automation with cutting-edge technology</p>
+        <div class="mt-6">
+            <a href="https://github.com/mellerihub/Awesome-AISolutions-for-mellerikat" class="bg-white text-blue-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition duration-300">
+                Explore Solutions
+            </a>
+        </div>
     </header>
 
-    <!-- Blog Section -->
-    <section class="max-w-4xl mx-auto my-10">
-        <h2 class="text-3xl font-bold text-center">Latest Blog Posts</h2>
-        <div class="grid md:grid-cols-2 gap-6 mt-6">
-            <!-- Sample Blog Post -->
-            <div class="bg-white shadow-lg rounded-lg p-6">
-                <h3 class="text-xl font-semibold">Zero-Shot Object Detection in MLOps</h3>
-                <p class="text-gray-600 mt-2">How we integrated Grounding DINO into our pipeline...</p>
-                <a href="https://github.com/mellerihub/zeroshot-objectdetection" class="text-blue-500 font-semibold mt-4 block" target="_blank">Read more →</a>
+    <!-- Why MelleriHub Section -->
+    <section id="about" class="max-w-4xl mx-auto my-12 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Why MelleriHub?</h2>
+        <div class="bg-white shadow-lg rounded-lg p-8">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="/api/placeholder/600/400" alt="MelleriHub Concept" class="rounded-lg shadow-md"/>
+                </div>
+                <div class="md:w-1/2">
+                    <p class="text-lg mb-4">
+                        MelleriHub archives AI solutions specialized for the <strong>Mellerikat MLOps</strong> platform, enabling both new and existing users to rapidly and easily develop high-quality AI solutions tailored to their own data.
+                    </p>
+                    <p class="text-lg mb-4">
+                        All solutions are optimized for the Mellerikat <strong>ALO framework</strong>, ensuring instant deployment in mellerikat MLOps environment.
+                    </p>
+                    <div class="mt-6">
+                        <h3 class="text-xl font-semibold mb-3">Key Benefits:</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2"><i class="fas fa-check-circle mt-1"></i></span>
+                                <span>Accelerate AI development with pre-optimized solutions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2"><i class="fas fa-check-circle mt-1"></i></span>
+                                <span>Seamless integration with Mellerikat MLOps platform</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2"><i class="fas fa-check-circle mt-1"></i></span>
+                                <span>Community-driven innovation and collaboration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2"><i class="fas fa-check-circle mt-1"></i></span>
+                                <span>Ready-to-deploy solutions for various AI challenges</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="bg-white shadow-lg rounded-lg p-6">
-                <h3 class="text-xl font-semibold">Optimizing Model Deployment with ALO Framework</h3>
-                <p class="text-gray-600 mt-2">Using ALO to improve ML pipelines...</p>
-                <a href="#" class="text-blue-500 font-semibold mt-4 block">Read more →</a>
+    <!-- Latest Solutions Section -->
+    <section class="bg-gray-50 py-12">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-2">Latest Solutions</h2>
+            <p class="text-center text-gray-600 mb-8">Our most recent additions to the MelleriHub collection</p>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Solution 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="bg-[#ee3634] text-white py-3 px-4">
+                        <span class="text-xs font-semibold uppercase tracking-wider">Computer Vision</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold">Zero-Shot Object Detection</h3>
+                        <p class="text-gray-600 mt-2 mb-4">Detect objects without prior training using Grounding DINO technology</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <span class="mr-2"><i class="far fa-calendar"></i></span>
+                            <span>March 1, 2025</span>
+                        </div>
+                        <a href="https://github.com/mellerihub/zeroshot-objectdetection" class="mt-4 inline-block text-blue-500 font-semibold hover:underline" target="_blank">View Solution →</a>
+                    </div>
+                </div>
+                
+                <!-- Solution 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="bg-green-500 text-white py-3 px-4">
+                        <span class="text-xs font-semibold uppercase tracking-wider">NLP</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold">Multilingual Sentiment Analysis</h3>
+                        <p class="text-gray-600 mt-2 mb-4">Analyze sentiment across multiple languages with a unified model</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <span class="mr-2"><i class="far fa-calendar"></i></span>
+                            <span>February 15, 2025</span>
+                        </div>
+                        <a href="#" class="mt-4 inline-block text-blue-500 font-semibold hover:underline">View Solution →</a>
+                    </div>
+                </div>
+                
+                <!-- Solution 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="bg-purple-500 text-white py-3 px-4">
+                        <span class="text-xs font-semibold uppercase tracking-wider">Time Series</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold">Anomaly Detection</h3>
+                        <p class="text-gray-600 mt-2 mb-4">Detect anomalies in industrial sensor data with transformer architecture</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <span class="mr-2"><i class="far fa-calendar"></i></span>
+                            <span>February 3, 2025</span>
+                        </div>
+                        <a href="#" class="mt-4 inline-block text-blue-500 font-semibold hover:underline">View Solution →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="https://github.com/mellerihub/Awesome-AISolutions-for-mellerikat" class="bg-blue-600 text-white font-bold py-2 px-6 rounded-full hover:bg-[#d32f2f] transition duration-300">
+                    Browse All Solutions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="max-w-4xl mx-auto my-12 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Latest Blog Posts</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- Blog Post 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="/api/placeholder/600/300" alt="Blog post thumbnail" class="w-full h-48 object-cover"/>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold">Zero-Shot Object Detection in MLOps</h3>
+                    <p class="text-gray-600 mt-2">How we integrated Grounding DINO into our pipeline for flexible object detection without requiring labeled training data...</p>
+                    <div class="flex items-center mt-4 text-sm text-gray-500">
+                        <span class="mr-4"><i class="far fa-calendar mr-1"></i> March 5, 2025</span>
+                        <span><i class="far fa-user mr-1"></i> MelleriHub Team</span>
+                    </div>
+                    <a href="https://github.com/mellerihub/zeroshot-objectdetection" class="text-blue-500 font-semibold mt-4 block hover:underline" target="_blank">Read more →</a>
+                </div>
+            </div>
+            
+            <!-- Blog Post 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="/api/placeholder/600/300" alt="Blog post thumbnail" class="w-full h-48 object-cover"/>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold">Optimizing Model Deployment with ALO Framework</h3>
+                    <p class="text-gray-600 mt-2">Using the AI Learning Organizer (ALO) framework to streamline ML pipelines and reduce deployment time by up to 60%...</p>
+                    <div class="flex items-center mt-4 text-sm text-gray-500">
+                        <span class="mr-4"><i class="far fa-calendar mr-1"></i> February 28, 2025</span>
+                        <span><i class="far fa-user mr-1"></i> MelleriHub Team</span>
+                    </div>
+                    <a href="#" class="text-blue-500 font-semibold mt-4 block hover:underline">Read more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start Guide -->
+    <section class="bg-[#fff0f0] py-12">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Get Started with MelleriHub</h2>
+            <div class="bg-white shadow-lg rounded-lg p-8">
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">1</div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-semibold">Request Access</h3>
+                            <p class="text-gray-600 mt-1">Contact contact@mellerikat.com to request access to MelleriHub solutions.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">2</div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-semibold">Find Your Solution</h3>
+                            <p class="text-gray-600 mt-1">Explore our collection to find the solution that matches your specific AI challenge.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">3</div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-semibold">Install ALO</h3>
+                            <p class="text-gray-600 mt-1">Check the solution's ALO version and install the AI Learning Organizer framework.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">4</div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-semibold">Run Demo</h3>
+                            <p class="text-gray-600 mt-1">Follow the solution's demo link to test and understand how it works with your data.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8 text-center">
+                    <a href="#" class="bg-blue-600 text-white font-bold py-2 px-6 rounded-full hover:bg-blue-700 transition duration-300">
+                        View Full Documentation
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center py-6">
-        <p>&copy; 2025 MelleriHub. All rights reserved.</p>
-        <p><a href="https://github.com/mellerihub/Awesome-AISolutions-for-mellerikat" class="text-blue-400">GitHub</a> | 
-           <a href="mailto:DL-mellerikat@lge.com" class="text-blue-400">Contact</a>
-        </p>
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="text-2xl font-bold text-[#ee3634]">MelleriHub</h2>
+                    <p class="mt-2 text-gray-400">AI Solutions Hub for Mellerikat MLOps</p>
+                </div>
+                
+                <div class="flex flex-col md:flex-row md:space-x-12 space-y-6 md:space-y-0 items-center md:items-start">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3">Links</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-[#ff6b6b]">Home</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-blue-400">About</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-blue-400">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-semibold mb-3">Resources</h3>
+                        <ul class="space-y-2">
+                            <li><a href="https://github.com/mellerihub/Awesome-AISolutions-for-mellerikat" class="text-gray-400 hover:text-blue-400">GitHub</a></li>
+                            <li><a href="https://mellerikat.com/user_guide/what_is_mellerikat" class="text-gray-400 hover:text-blue-400">Mellerikat Docs</a></li>
+                            <li><a href="https://mellerikat.com/user_guide/data_scientist_guide/alo/#what-is-ai-learning-organizeralo" class="text-gray-400 hover:text-blue-400">ALO Framework</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2025 MelleriHub. All rights reserved.</p>
+                <p class="mt-2">
+                    <a href="https://github.com/mellerihub/Awesome-AISolutions-for-mellerikat" class="text-blue-400 hover:text-[#ff8a8a]">GitHub</a> | 
+                    <a href="mailto:contact@mellerikat.com" class="text-blue-400 hover:text-blue-300">Contact</a>
+                </p>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
